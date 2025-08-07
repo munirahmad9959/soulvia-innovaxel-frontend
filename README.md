@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 Soulvia - Luxury Skincare E-Commerce Platform
 
-## Getting Started
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Next.js](https://img.shields.io/badge/Next.js-15+-black)](https://nextjs.org/)
+[![Django](https://img.shields.io/badge/Django-4.2+-green)](https://www.djangoproject.com/)
 
-First, run the development server:
+> **Soulvia** is a luxury skincare e-commerce platform that integrates a multi-level marketing (MLM) system. It offers a seamless shopping experience and partnership opportunity through a powerful referral-based architecture.
+
+---
+
+## 🎯 Project Overview
+
+**Soulvia** enables users to:
+
+- 🛒 Browse and purchase luxury skincare products
+- 👥 Join as partners and earn commissions through a 3-tier referral system
+- 📦 Track orders and commission history
+- 📊 Access dashboards and marketing tools
+
+---
+
+## 🏗️ Architecture
+
+- **Frontend**: [Next.js 15](https://nextjs.org/) with TypeScript & TailwindCSS
+- **Backend**: [Django 4.2+](https://www.djangoproject.com/) REST API with DRF
+- **Database**: PostgreSQL
+- **Authentication**: JWT (via Django backend)
+- **DevOps**: GitHub Actions CI/CD, Vercel/Render for deployments
+
+---
+
+## ✨ Features
+
+### 🛒 E-Commerce Core
+- Product catalog, search, and filtering
+- Persistent shopping cart
+- Secure checkout flow (Stripe Integration)
+- Order tracking and history
+- Reviews, ratings, and wishlist
+
+### 🤝 MLM System
+- Partner onboarding
+- 3-tier commission tracking (5% per tier)
+- Visual partner network (tree view)
+- Marketing content & referral tools
+- Commission withdrawals & payout logs
+
+### 👥 User Management
+- Role-based system (Admin, Partner, Customer)
+- JWT authentication
+- Email verification & password reset
+- Profile and dashboard
+
+### 🖥️ Admin Portal (Planned)
+- Product & order management
+- User and commission controls
+- Analytics dashboard
+
+---
+
+## 🧱 Tech Stack
+
+| Layer         | Tech Stack                          |
+|--------------|--------------------------------------|
+| Frontend      | Next.js, React 19, Tailwind CSS     |
+| Backend       | Django, Django REST Framework       |
+| Database      | PostgreSQL                          |
+| Auth          | JWT (via Django)                    |
+| CI/CD         | GitHub Actions                      |
+| Deployment    | Vercel (frontend), Render (backend) |
+| Styling       | Tailwind CSS                        |
+| Testing       | Jest, React Testing Library, Pytest |
+| Dev Tools     | ESLint, Prettier                    |
+
+---
+
+## 🚀 Quick Start
+
+### 🔧 Prerequisites
+
+- Node.js 18+
+- Python 3.10+
+- PostgreSQL
+- npm or yarn
+- Git
+
+### 📦 Frontend Setup (Next.js)
 
 ```bash
+# Clone repo
+git clone https://github.com/munirahmad9959/soulvia-innovaxel-frontend.git
+cd soulvia-innovaxel-frontend
+
+# Install dependencies
+npm install
+
+# Run dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Visit: http://localhost:3000
