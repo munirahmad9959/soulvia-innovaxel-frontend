@@ -1,0 +1,40 @@
+# Node modules (will be installed inside container)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Local env files (sensitive info)
+.env
+.env.* 
+
+# Logs
+logs
+*.log
+
+# OS + IDE files
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+.vscode
+.idea
+
+# Git
+.git
+.gitignore
+
+# Build output (should be generated in container)
+.next
+out
+
+# Testing / Coverage
+coverage
+*.spec.ts
+*.test.ts
+jest.config.*
+
+# Misc
+*.md
+*.tsbuildinfo
+
